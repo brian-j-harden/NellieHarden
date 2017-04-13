@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@font-face {
+    font-family: Sansation Light;
+    src: url(../font/sansation.light.eot), /* IE Compat Modes */
+    url(../font/sansation.light.woff), /* Modern Browsers */
+    url(../font/sansation.light.ttf) /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: cabin-bold;
+    src: url(../font/cabinsketch-bold-webfont.eot), /* IE Compat Modes */
+    url(../font/cabinsketch-bold-webfont.woff), /* Modern Browsers */
+    url(../font/cabinsketch-bold-webfont.ttf) /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: playfair;
+    src: url(../font/playfairdisplaysc-regular-webfont.eot), /* IE Compat Modes */
+    url(../font/playfairdisplaysc-regular-webfont.woff), /* Modern Browsers */
+    url(../font/playfairdisplaysc-regular-webfont.ttf) /* Safari, Android, iOS */
+}
+
+.top_20 {
+    padding-top: 20px;
+}
+
+.top_5 {
+    padding-top: 5px;
+}
+
+body {
+    margin: 0;
+    letter-spacing: .04em;
+    line-height: 1.5;
+}
+
+div#logo {
+    float: left;
+    width: 35%;
+    min-width: 115px;
+    max-width: 360px;
+    padding-top: 15px;
+}
+
+/**  *******/
+
+
+div.header {
+    background: url(../img/border3.jpg) repeat top left;
+    height: 15px;
+}
+
+div.title {
+    max-width: 940px;
+    margin: auto;
+    overflow: hidden;
+}
+
+div.footer {
+    max-width: 940px;
+    margin: auto;
+    text-align: right;
+    font-size: 10px;
+    color: #6c7373;
+}
+
+
+div#menu {
+    float: right;
+    margin-top: 60px;
+    position: relative;
+    width: 575px;
+}
+
+div#menu ::after {
+    clear: both;
+}
+
+div#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+div#menu ul::after {
+    clear: both;
+}
+
+div#menu ul li {
+    float: left;
+    position: relative;
+    cursor: pointer;
+    padding-right: 12px;
+}
+
+div#menu a {
+    text-decoration: none;
+    font-family: 'playfair';
+    font-size: 20px;
+    color: #81735F;
+    font-weight: BOLD;
+    letter-spacing: 0px;
+}
+
+div.content {
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+div.content > div {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans';
+    font-size: 17px;
+    color: #6c7373;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+div#life_goals {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.cntr {
+    text-align: center;
+}
+
+.red_text {
+    color: #c67c6d;
+}
+
+.construction {
+    font-family: "cabin-bold";
+    font-size: 40px;
+    color: black;
+    line-height: 36px;
+    font-style: normal;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+.font-sans-light {
+    font-family: "Sansation Light";
+    font-size: 24px;
+    color: #585c5e;
+    line-height: 36px;
+    font-style: normal;
+}
+
+.teal {
+    color: #30aea7;
+}
+
+.indent {
+    width: 74%;
+    margin: 0 auto;
+}
+
+.bullet {
+    font-family: 'Open Sans';
+    font-size: 17px;
+    color: #6c7373;
+    margin: 0px 0px 8px 0px;
+}
+
+div#life_goals .bullet i{
+    color: #c67c6d;
+    margin-top: 2px;
+}
+
+div.banner {
+    background-color: #a0e0db;
+    border-color: #eae9e9;
+    height: 25px;
+    padding-bottom: 0px !important;
+}
+
+div#about img {
+    margin-right: 25px;
+    float: left;
+}
+
+div#contact img {
+    margin-left: 25px;
+    float: right;
+}
+
+div.background_opacity_50 {
+    position: absolute;
+    top: -25px;
+    right: -125px;
+    z-index: -10;
+}
+
+div.background_talking {
+    position: absolute;
+    top: -40px;
+    right: 90px;
+    z-index: -10;
+}
+
+p#how_step {
+    font-family: "Sansation Light";
+    color: #c67c6d;
+    font-size: 24px;
+    padding-left: 10%;
+    font-weight: bold;
+}
+
