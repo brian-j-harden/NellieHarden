@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
 @font-face {
     font-family: Sansation Light;
     src: url(../font/sansation.light.eot), /* IE Compat Modes */
@@ -19,6 +17,13 @@
     src: url(../font/playfairdisplaysc-regular-webfont.eot), /* IE Compat Modes */
     url(../font/playfairdisplaysc-regular-webfont.woff), /* Modern Browsers */
     url(../font/playfairdisplaysc-regular-webfont.ttf) /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: Open Sans;
+    src: url(../font/OpenSans-Regular.eot), /* IE Compat Modes */
+    url(../font/OpenSans-Regular.woff), /* Modern Browsers */
+    url(../font/OpenSans-Regular.ttf) /* Safari, Android, iOS */
 }
 
 .top_20 {
@@ -42,6 +47,7 @@ div#banner {
 div#container {
     width: 80%;
     min-width: 734px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -132,6 +138,10 @@ div#page > div {
     text-align: center;
 }
 
+.underln {
+    text-decoration: underline;
+}
+
 .red_text {
     color: #c67c6d;
 }
@@ -148,9 +158,21 @@ div#page > div {
     color: #30aea7;
 }
 
+.dark_grey {
+    color: #444;
+}
+
 .indent {
     width: 74%;
     margin: 0 auto;
+}
+
+.indent table {
+    margin-bottom: 50px;
+}
+
+.indent td.header {
+    border-bottom: 2px black solid;
 }
 
 .bullet {
@@ -158,6 +180,18 @@ div#page > div {
     font-size: 17px;
     color: #6c7373;
     margin: 0px 0px 8px 0px;
+}
+
+.pillar {
+    width: 20%;
+}
+
+.freedom {
+    width: 30%;
+}
+
+.legacy {
+    width: 250px;
 }
 
 div#life_goals .bullet i{
@@ -169,6 +203,7 @@ img#nellie {
     margin-right: 25px;
     float: left;
     width: 40%;
+    max-width: 350px;
     padding-left: 5px;
 }
 
