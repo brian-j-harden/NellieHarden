@@ -235,11 +235,49 @@ p#how_step {
     font-weight: bold;
 }
 
+div.connect {
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+}
+
+div.connect p {
+    margin: 0px;
+}
+
+p#connect_header {
+    font-size: 48px;
+}
+
+p.font_30 {
+    font-size: 30px;
+}
+
 div#bottom_border {
     background-color: #a0e0db;
     border-color: #eae9e9;
     height: 25px;
     margin-top: 20px;
+}
+
+div#obstacles {
+    margin-top: 40px;
+}
+
+div#obstacles p {
+    margin: 0px;
+}
+
+div#obstacles table {
+    padding-top: 30px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: left;
+}
+
+div#obstacles table td{
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 div#footer {
